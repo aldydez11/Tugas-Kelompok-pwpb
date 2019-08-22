@@ -18,6 +18,11 @@
 	<head>
 		<title>KELOMPOK 5</title>
 		<style type="text/css">
+			html {
+				background: url(img/bgg.jpg) no-repeat fixed;
+				background-size: 100% 100%;
+			}
+
 			.header {
 				margin:0;
 				text-align: center;
@@ -82,11 +87,27 @@
 				padding: 20px;
 				border-radius: 10px;
 				border: 2px solid black;
+				bottom: 0px;
+				position: absolute;
+				width: 100%;
+			}
+			.button {
+				background-color: #82b1ff;
+				border:2px solid black;
+				padding: 20px;
+				margin: 15px;
+				left:0px;
+				border-radius: 10px;
+				font-family: arial;
+				font-size: 20px;
 
+			}			
+			p {
+				font-size: 20px;
 			}
 		</style>
 	</head>
-	<body background="img/bgg.jpg">
+	<body>
 
 		<div class="header">
 		<ul>
@@ -94,6 +115,7 @@
 				<h1>~ TUGAS PERTAMA ~</h1>
 			</center>
 		</ul>
+			<a class="button" href="index.html">BACK</a>
 		</div>
 <div class="posisi">
 		<div class="border">
@@ -105,9 +127,7 @@
 			echo "<br> Nama : <b> $nama_aldi </b>  </br>" ;
 			echo "Umur : <b> $umur_aldi Tahun </b>";
 			echo "<br> Tinggi badan : <b> $tinggi_badan_aldi cm </b> </br>"; 
-			?>
-			<br>
-			<br>			
+			?>			
 			<p>Tinggal di Kp.Carang Pulang , Hobi nya suka main game , berperan sebagai wakil ketua kelas di Kelas 11 rpl 2</p>
 		</center>
 	</div>
@@ -122,8 +142,6 @@
 			echo "Umur : <b> $umur_farah Tahun </b>";
 			echo "<br> Tinggi badan : <b> $tinggi_badan_farah cm </b> </br>"; 
 			?>
-			<br>
-			<br>
 			<p>Tinggal di Leuwiliang , Hobi suka telat masuk kelas , suka mojok dikelas bersama kawannya		</p>
 		</center>
 	</div>
@@ -137,9 +155,8 @@
 			echo "<br> Nama : <b> $nama_baar </b> </br>" ;
 			echo "Umur : <b> $umur_baar Tahun </b>";
 			echo "<br> Tinggi badan : <b> $tinggi_badan_baar cm </b> </br>"; 
-			?>
-			<br>						
-			<p>Tinggal di Kp. Cangkrang , Hobyy Bermain futsal , Profesional disetiap keadaan apapun, Bisa jaga perasaan orang lain</p>
+			?>						
+			<p>Tinggal di Kp. Cangkrang , Hobyy Bermain futsal , Profesional disetiap keadaan apapunx</p>
 		</center>
 	</div>
 	</div>
