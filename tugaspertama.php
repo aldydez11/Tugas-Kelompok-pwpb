@@ -19,14 +19,14 @@
 		<title>KELOMPOK 5</title>
 		<style type="text/css">
 			html {
-				background: url(img/bgg.jpg) no-repeat fixed;
+				background: url(img/blue.jpg) no-repeat fixed;
 				background-size: 100% 100%;
 			}
 
 			.header {
 				margin:0;
 				text-align: center;
-				background-color: #80d8ff;
+				background-color: #4dd0e1;
 				padding: 25px;
 				border-radius: 10px;
 				border: 2px solid black;
@@ -48,7 +48,7 @@
 				height: 400px;
 				width: 300px;
 				border-radius: 10px;
-				background-color: #80d8ff;
+				background-color: #4dd0e1;
 				display: inline-block;
 				margin: 30px;
 				border: 2px solid black;
@@ -61,7 +61,7 @@
 				height: 400px;
 				width: 300px;
 				border-radius: 10px;
-				background-color: #80d8ff;
+				background-color: #4dd0e1;
 				display: inline-block;
 				margin: 30px;
 				border: 2px solid black;
@@ -74,16 +74,17 @@
 				height: 400px;
 				width: 300px;
 				border-radius: 10px;
-				background-color: #80d8ff;
+				background-color: #4dd0e1;
 				display: inline-block;
 				margin: 30px;
 				border: 2px solid black;
 			}
 			.posisi {
 				text-align: center;
+				font-family: arial;
 			}
 			.tinggi ul{
-				background-color: #80d8ff;
+				background-color: #0288d1;
 				padding: 20px;
 				border-radius: 10px;
 				border: 2px solid black;
@@ -105,18 +106,51 @@
 			p {
 				font-size: 20px;
 			}
+			li {
+			display: inline-block;
+			}
+			a {
+			padding: 10px;
+			border: 2px solid black;
+			margin-top: 20px;
+			border-radius: 10px;
+			background-color: #4dd0e1 ;
+			font-family: arial;
+			color: black;
+			} 
 		</style>
 	</head>
 	<body>
-
+	</div>
 		<div class="header">
 		<ul>
 			<center>
-				<h1>~ TUGAS PERTAMA ~</h1>
+				<h1>TUGAS PERTAMA</h1>
 			</center>
 		</ul>
-			<a class="button" href="index.html">BACK</a>
 		</div>
+	<center>
+	<div class="menu">
+		<ul>
+			<li>
+				<a href="index.html">Beranda</a>
+			</li>
+			<li>
+				<a href="tugaspertama.php">Tugas Pertama</a>
+			</li>
+			<li>
+				<a href="tugaskedua.php">Tugas ke dua</a>
+				
+			</li>
+			<li>
+				<a href="tugaspertama.php">Tugas ke Tiga</a>
+			</li>
+			<li>
+				<a href="tugaspertama.php">Tugas ke Empat</a>
+			</li>
+		</ul>
+	</div>
+	</center>
 <div class="posisi">
 		<div class="border">
 		<div class="img">
@@ -142,7 +176,7 @@
 			echo "Umur : <b> $umur_farah Tahun </b>";
 			echo "<br> Tinggi badan : <b> $tinggi_badan_farah cm </b> </br>"; 
 			?>
-			<p>Tinggal di Leuwiliang , Hobi suka telat masuk kelas , suka mojok dikelas bersama kawannya		</p>
+			<p>Tinggal di Leuwiliang , Hobi suka telat masuk kelas , suka mojok dikelas bersama kawannya</p>
 		</center>
 	</div>
 	</div>
@@ -156,7 +190,7 @@
 			echo "Umur : <b> $umur_baar Tahun </b>";
 			echo "<br> Tinggi badan : <b> $tinggi_badan_baar cm </b> </br>"; 
 			?>						
-			<p>Tinggal di Kp. Cangkrang , Hobyy Bermain futsal , Profesional disetiap keadaan apapunx</p>
+			<p>Tinggal di Kp. Cangkrang , Hobyy Bermain futsal , Profesional disetiap keadaan apapun</p>
 		</center>
 	</div>
 	</div>
