@@ -143,7 +143,7 @@
 				
 			</li>
 			<li>
-				<a href="tugaspertama.php">Tugas ke Tiga</a>
+				<a href="tugas_ketiga.php">Tugas ke Tiga</a>
 			</li>
 			<li>
 				<a href="tugaspertama.php">Tugas ke Empat</a>
@@ -183,7 +183,7 @@
 		<div class="border3">
 		<div class="img3">
 		<center>
-			<img src="img/baar.jpg" width="70%" height="70%">
+			<img src="img/baar1.jpg" width="70%" height="70%">
 			<br>
 			<?php 
 			echo "<br> Nama : <b> $nama_baar </b> </br>" ;

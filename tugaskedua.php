@@ -116,7 +116,7 @@
 				
 			</li>
 			<li>
-				<a href="tugaspertama.php">Tugas ke Tiga</a>
+				<a href="tugas_ketiga.php">Tugas ke Tiga</a>
 			</li>
 			<li>
 				<a href="tugaspertama.php">Tugas ke Empat</a>
